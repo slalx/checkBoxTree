@@ -1,0 +1,60 @@
+/**
+ * 归属地控件 css
+ */
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+.hide,.hidden{display:none;}
+.wt-citytree {margin:3px 0 0 5px;display:block;}
+.wt-citytree .colwrap {width:205px;float:left;height:400px;}
+.wt-citytree .colwrap strong {height:20px;overflow:hidden;}
+.wt-citytree .list-container{border: 1px solid #DCDCDC;padding:5px;}
+
+.wt-citytree .left-wrap{margin-right:40px;}
+.wt-citytree .wordfilter {border-bottom:1px solid #EAEAEA;clear:both;height:40px;line-height:1.5;margin-bottom:3px;}
+.wt-citytree .wordfilter a {display:block;float:left;margin:0 2px;}
+.wt-citytree .wordfilter .selected {background:#FF8B17;color:#FFF;}
+.wt-citytree .wordfilter .gray {color:#CCC;cursor:text;text-decoration:none;}
+.wt-citytree .list-tree {overflow-y:scroll;clear:both;height:320px;overflow-x:hidden;}
+
+.wt-citytree .list-tree li{margin:4px 0px;-moz-user-select:none;}
+.wt-citytree .list-tree li li{margin:0px;}
+
+.wt-citytree .left-wrap .list-tree{height:320px;}
+.wt-citytree .right-wrap .list-tree{height:360px;}
+
+.list-tree li{margin:0 0 5px;padding:2px;}
+.list-tree li span {
+    background:url(http://img08.taobaocdn.com/tps/i8/T1oeRHXdpqXXXXXXXX-11-40.gif) no-repeat scroll 3px -10px transparent;
+    padding-left:18px;
+    cursor:pointer;
+    width:auto!important;
+}
+.list-tree li span strong{color:#FF8B17;margin-right:2px;width:10px;}
+.list-tree li ul {margin-left:18px;display:none;}
+.list-tree li input {background:none repeat scroll 0 0 transparent;vertical-align:middle;margin-top:-3px;}
+
+.list-tree li.expand span {background-position:3px 4px;}
+.list-tree li.expand{height:auto;}
+.list-tree li.expand ul {display:block;}
+.list-tree li.expand span a {font-weight:bold;color:#000;}
+.list-tree li.expand span a:hover {text-decoration:none;}
+
+.wt-citytree .clearsel{color:red;}
+.wt-citytree .seltips {background-color:#CCC;color:#666;
+    padding-left:10px;margin-top:-17px;position:relative;
+}
+.wt-citytree .seltips strong {color:#FF8B17;float:none;font-weight:bold;}
+.wt-citytree .alert-error {clear:both;}
+
+.docheck li{border-bottom:1px solid #CCCCCC;height: 19px;}
+.docheck a {
+    background: url("http://img08.taobaocdn.com/tps/i8/T1oeRHXdpqXXXXXXXX-11-40.gif") no-repeat scroll 0 -26px transparent;
+    float: right;height: 12px;overflow: hidden;text-indent: 9999px;width: 9px;
+}
+ 

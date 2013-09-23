@@ -1,0 +1,14 @@
+{
+    "name": "checkBoxTree",
+    "version": "1.0",
+    "desc": "多选树形控件",
+    "cover": "http://www.gravatar.com/avatar/6b550351ef3a3faa46d94097edb71629.png",
+    "tag":"树,tree,checkbox,树形控件,多选树形控件,checkBoxTree",
+    "author": {
+        "name": "知了",
+        "email": "zhiliao.zsl@taobao.com",
+        "page": "https://github.com/slalx/"
+    },
+    "type": "kissy-gallery",
+    "type-url": "http://gallery.kissyui.com/guide"
+}
