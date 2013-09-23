@@ -498,14 +498,14 @@ KISSY.add('gallery/checkBoxTree/1.0/render',function (S, Base) {
 										indexHTML + treeHTML +    
 										'</div>'+
 									'</div>'+
-									'<div class="colwrap right-wrap">'+
+									/*'<div class="colwrap right-wrap">'+
 										'<strong>已选择  国内市级行政区 </strong>'+
 										'<a class="clearsel" href="#">清空</a>'+
 										'<ul class="list-tree list-container docheck" id="J_MultiTree_SelectedItems">'+
 										'</ul>'+
 										'<div class="seltips">已经选中 <strong>0</strong> 个</div>'+
 									'</div>'+
-									'<input class="J_SelectedIds hide" type="text" value=""/>'+
+									'<input class="J_SelectedIds hide" type="text" value=""/>'+*/
 								'</div>';
 								return containerHTML;
 		},
